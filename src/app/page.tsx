@@ -30,69 +30,74 @@ export default function Home() {
               </div>
               
               <div className="space-y-3 text-green-400">
-                <div>
-                  <span className="text-gray-500">$</span> whoami
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-500">$</span> 
+                  <span className="text-gray-400 text-sm">Who am I?</span>
                 </div>
                 <div className="text-4xl md:text-6xl font-bold text-green-400 mb-4">
                   Kevin Conklin
                 </div>
                 
-                <div>
-                  <span className="text-gray-500">$</span> cat ./role.txt
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-500">$</span> 
+                  <span className="text-gray-400 text-sm">What do I do?</span>
                 </div>
                 <div className="text-xl text-green-300 mb-4">
                   Technical Manager | AI Innovation Lead @ Deloitte
                 </div>
                 
-                <div>
-                  <span className="text-gray-500">$</span> ls -la ./expertise/
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-500">$</span> 
+                  <span className="text-gray-400 text-sm">My experience:</span>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-cyan-400">5+</div>
-                    <div className="text-xs text-gray-400">AI_PROJECTS</div>
+                    <div className="text-xs text-gray-400">AI Projects</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-yellow-400">M.S.</div>
-                    <div className="text-xs text-gray-400">ANALYTICS</div>
+                    <div className="text-xs text-gray-400">Business Analytics</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-orange-400">AWS</div>
-                    <div className="text-xs text-gray-400">CERTIFIED</div>
+                    <div className="text-xs text-gray-400">Cloud Certified</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-purple-400">AI/ML</div>
-                    <div className="text-xs text-gray-400">SPECIALIST</div>
+                    <div className="text-xs text-gray-400">Specialist</div>
                   </div>
                 </div>
                 
-                <div>
-                  <span className="text-gray-500">$</span> ./execute_commands.sh
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-500">$</span> 
+                  <span className="text-gray-400 text-sm">Quick navigation:</span>
                 </div>
                 <div className="flex flex-wrap gap-4 mb-6">
                   <a
                     href="#projects"
                     className="bg-green-600/20 border border-green-500/50 text-green-400 px-6 py-3 rounded font-semibold hover:bg-green-600/30 hover:border-green-400 transition-all duration-300"
                   >
-                    ./view_projects.sh
+                    View My Projects →
                   </a>
                   <a
                     href="#contact"
                     className="border border-cyan-500/50 text-cyan-400 px-6 py-3 rounded font-semibold hover:bg-cyan-600/20 hover:border-cyan-400 transition-all duration-300"
                   >
-                    ./contact.sh
+                    Get In Touch →
                   </a>
                 </div>
                 
-                <div>
-                  <span className="text-gray-500">$</span> echo $TECH_STACK
+                <div className="flex items-center gap-3">
+                  <span className="text-gray-500">$</span> 
+                  <span className="text-gray-400 text-sm">Technologies I use:</span>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">python</span>
-                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">react</span>
-                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">aws</span>
-                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">docker</span>
-                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">genai</span>
+                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">Python</span>
+                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">React</span>
+                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">AWS</span>
+                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">Docker</span>
+                  <span className="text-xs bg-gray-800 border border-gray-600 px-2 py-1 rounded text-gray-300">Generative AI</span>
                 </div>
               </div>
               
@@ -127,8 +132,9 @@ export default function Home() {
                 </div>
                 
                 <div className="space-y-4 text-green-400">
-                  <div>
-                    <span className="text-gray-500">$</span> cat ./bio.md
+                  <div className="flex items-center gap-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-gray-400 text-sm">About me:</span>
                   </div>
                   <div className="text-sm text-green-300 leading-relaxed pl-4 border-l border-green-500/30">
                     I am a Technical Manager and Developer leading Generative AI initiatives within Deloitte&apos;s Government & Public Services practice. My focus is delivering secure, intuitive solutions that exceed client expectations while developing top-level talent. As a trusted cloud architect, I provide expert guidance on cloud security, AI development, and resilient cloud architectures. By prioritizing DevOps and continuous learning, I cultivate high-performing teams that remain at the forefront of the evolving AI landscape.
@@ -148,8 +154,9 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-3 text-cyan-400">
-                    <div>
-                      <span className="text-gray-500">$</span> cat skills.json
+                    <div className="flex items-center gap-3">
+                      <span className="text-gray-500">$</span> 
+                      <span className="text-gray-400 text-sm">My skills & expertise:</span>
                     </div>
                     <div className="text-sm">
                       <div className="text-yellow-400">&#123;</div>
@@ -203,8 +210,9 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-3 text-purple-400">
-                    <div>
-                      <span className="text-gray-500">$</span> tail -f education.log
+                    <div className="flex items-center gap-3">
+                      <span className="text-gray-500">$</span> 
+                      <span className="text-gray-400 text-sm">My education:</span>
                     </div>
                     <div className="text-sm space-y-3">
                       <div className="bg-gray-800/50 border border-purple-500/20 rounded p-3">
@@ -249,12 +257,12 @@ export default function Home() {
                 </div>
                 
                 <div className="space-y-4 text-cyan-400">
-                  <div>
-                    <span className="text-gray-500">$</span> ls -la ./personal_projects/
+                  <div className="flex items-center gap-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-gray-400 text-sm">Personal projects & articles:</span>
                   </div>
                   <div className="text-sm text-cyan-300 leading-relaxed pl-4 border-l border-cyan-500/30">
-                    <span className="text-yellow-400"># README.md</span><br/>
-                    My primary focus is delivering exceptional results for clients at Deloitte. 
+                    <span className="text-yellow-400">Note:</span> My primary focus is delivering exceptional results for clients at Deloitte. 
                     These personal projects represent explorations and tutorials I create during my free time between work and family commitments. 
                     They showcase my passion for AI innovation but are just a glimpse of my professional capabilities.
                   </div>
@@ -318,7 +326,10 @@ export default function Home() {
                   
                   <div className="p-4">
                     <div className="text-green-400 mb-3">
-                      <div className="text-xs text-gray-500 mb-1">$ cat project_info.json</div>
+                      <div className="flex items-center gap-2 text-xs text-gray-500 mb-1">
+                        <span>$</span> 
+                        <span>Project details:</span>
+                      </div>
                       <h3 className="text-sm font-bold text-green-300 mb-2">
                         {project.title}
                       </h3>
@@ -329,7 +340,10 @@ export default function Home() {
                     </div>
                     
                     <div className="mb-3">
-                      <div className="text-xs text-gray-500 mb-1">$ echo $DEPENDENCIES</div>
+                      <div className="flex items-center gap-2 text-xs text-gray-500 mb-1">
+                        <span>$</span> 
+                        <span>Built with:</span>
+                      </div>
                       <div className="flex flex-wrap gap-1">
                         {project.technologies.map((tech) => (
                           <span key={tech} className="text-xs bg-gray-800/60 border border-gray-600/50 px-2 py-1 rounded text-orange-400">
@@ -347,7 +361,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="bg-blue-600/20 border border-blue-500/50 text-blue-400 px-3 py-1 rounded hover:bg-blue-600/30 transition-all"
                         >
-                          ./read.sh
+                          Read Article →
                         </a>
                       )}
                       {project.liveUrl && (
@@ -357,7 +371,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="border border-green-500/50 text-green-400 px-3 py-1 rounded hover:bg-green-600/20 transition-all"
                         >
-                          ./deploy.sh
+                          View Live →
                         </a>
                       )}
                       {project.githubUrl && (
@@ -367,7 +381,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="border border-gray-500/50 text-gray-400 px-3 py-1 rounded hover:bg-gray-600/20 transition-all"
                         >
-                          git clone
+                          View Code →
                         </a>
                       )}
                     </div>
@@ -402,8 +416,9 @@ export default function Home() {
                 </div>
                 
                 <div className="space-y-4 text-yellow-400">
-                  <div>
-                    <span className="text-gray-500">$</span> ./send_message.sh --interactive
+                  <div className="flex items-center gap-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-gray-400 text-sm">How to reach me:</span>
                   </div>
                 </div>
               </div>
@@ -420,8 +435,9 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-4 text-cyan-400">
-                    <div>
-                      <span className="text-gray-500">$</span> cat contact_info.json
+                    <div className="flex items-center gap-3">
+                      <span className="text-gray-500">$</span> 
+                      <span className="text-gray-400 text-sm">Contact information:</span>
                     </div>
                     <div className="text-sm">
                       <div className="text-yellow-400">&#123;</div>
@@ -467,19 +483,22 @@ export default function Home() {
                     </div>
                     
                     <div className="mt-6 pt-4 border-t border-cyan-500/20">
-                      <div className="text-xs text-gray-500 mb-2">$ echo &quot;Quick access commands:&quot;</div>
+                      <div className="flex items-center gap-2 text-xs text-gray-500 mb-2">
+                        <span>$</span>
+                        <span>Quick links:</span>
+                      </div>
                       <div className="space-y-2 text-xs">
                         <div className="text-gray-400">
-                          <span className="text-green-400">mailto</span> conklinradio@gmail.com
+                          <span className="text-green-400">Email:</span> conklinradio@gmail.com
                         </div>
                         <div className="text-gray-400">
-                          <span className="text-blue-400">curl</span> -X GET linkedin.com/in/kevinwconklin
+                          <span className="text-blue-400">LinkedIn:</span> linkedin.com/in/kevinwconklin
                         </div>
                         <div className="text-gray-400">
-                          <span className="text-orange-400">wget</span> medium.com/@kevinconklin_17818
+                          <span className="text-orange-400">Articles:</span> medium.com/@kevinconklin_17818
                         </div>
                         <div className="text-gray-400">
-                          <span className="text-purple-400">git clone</span> github.com/kevconklin
+                          <span className="text-purple-400">Code:</span> github.com/kevconklin
                         </div>
                       </div>
                     </div>
@@ -506,33 +525,36 @@ export default function Home() {
               
               <div className="grid md:grid-cols-2 gap-8 text-sm">
                 <div className="text-gray-400">
-                  <div className="mb-3">
-                    <span className="text-gray-500">$</span> whoami && pwd
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-sm">Portfolio info:</span>
                   </div>
-                  <div className="text-green-400 mb-1">kevin_conklin</div>
-                  <div className="text-cyan-400 mb-4">/home/deloitte/portfolio</div>
+                  <div className="text-green-400 mb-1">Kevin Conklin</div>
+                  <div className="text-cyan-400 mb-4">AI Technical Leader @ Deloitte</div>
                   
-                  <div className="mb-3">
-                    <span className="text-gray-500">$</span> cat /etc/build-info
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-sm">Built with:</span>
                   </div>
-                  <div className="text-orange-400 mb-1">BUILD_STACK=nextjs+tailwind</div>
-                  <div className="text-orange-400 mb-1">BUILD_DATE=2025-01-07</div>
-                  <div className="text-orange-400 mb-4">VERSION=1.0.0</div>
+                  <div className="text-orange-400 mb-1">Next.js + Tailwind CSS</div>
+                  <div className="text-orange-400 mb-1">January 2025</div>
+                  <div className="text-orange-400 mb-4">Version 1.0</div>
                 </div>
                 
                 <div className="text-gray-400">
-                  <div className="mb-3">
-                    <span className="text-gray-500">$</span> ls -la /usr/local/links/
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-gray-500">$</span> 
+                    <span className="text-sm">Connect with me:</span>
                   </div>
                   <div className="space-y-1 text-xs">
                     <div className="text-blue-400">
-                      lrwxrwxrwx 1 kevin staff <a href="https://www.linkedin.com/in/kevinwconklin/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">linkedin.com/in/kevinwconklin</a>
+                      LinkedIn: <a href="https://www.linkedin.com/in/kevinwconklin/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300">linkedin.com/in/kevinwconklin</a>
                     </div>
                     <div className="text-orange-400">
-                      lrwxrwxrwx 1 kevin staff <a href="https://medium.com/@kevinconklin_17818" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300">medium.com/@kevinconklin_17818</a>
+                      Articles: <a href="https://medium.com/@kevinconklin_17818" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300">medium.com/@kevinconklin_17818</a>
                     </div>
                     <div className="text-purple-400">
-                      lrwxrwxrwx 1 kevin staff <a href="https://github.com/kevconklin" target="_blank" rel="noopener noreferrer" className="hover:text-purple-300">github.com/kevconklin</a>
+                      Code: <a href="https://github.com/kevconklin" target="_blank" rel="noopener noreferrer" className="hover:text-purple-300">github.com/kevconklin</a>
                     </div>
                   </div>
                 </div>
