@@ -273,6 +273,14 @@ export default function Home() {
               {[
                 {
                   id: 1,
+                  title: "journl/it",
+                  description: "Zero-knowledge encryption journaling application for secure, private writing and reflection.",
+                  image: "https://media.istockphoto.com/id/1347150429/vector/journal-icon.jpg?s=612x612&w=0&k=20&c=L0qJ2hMqqzSGjCdOfPk-yZUuJJLGnE9GNWJnP8RjOFU=",
+                  technologies: ["zero-knowledge", "encryption", "javascript", "privacy", "journaling"],
+                  liveUrl: "https://journlit.com"
+                },
+                {
+                  id: 2,
                   title: "How Do GenAI Models Evaluate Other Models?",
                   description: "A high level analysis of using Generative AI models to grade other Generative AI model outputs.",
                   image: "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*dpzzNYjCQCpeBpY5RHvo8A.jpeg",
@@ -280,7 +288,7 @@ export default function Home() {
                   readUrl: "https://medium.com/@kevinconklin_17818/how-do-genai-models-grade-other-modeloutputs-e8d88d293e25"
                 },
                 {
-                  id: 2,
+                  id: 3,
                   title: "Using BigQuery as a Vector Store",
                   description: "A tutorial on how to use Google Cloud BigQuery as a Vector Store in RAG applications.",
                   image: "https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png",
@@ -289,7 +297,7 @@ export default function Home() {
                   readUrl: "https://medium.com/@kevinconklin_17818/using-bigquery-as-a-vector-store-b1ca91371854"
                 },
                 {
-                  id: 3,
+                  id: 4,
                   title: "Build Card Game With GenAI",
                   description: "Walk through of using Bolt.new to build and deploy War Card game application in minutes.",
                   image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*B3MJURpInfgf3SboW1lcUA.png",
@@ -298,7 +306,7 @@ export default function Home() {
                   readUrl: "https://medium.com/@kevinconklin_17818/using-bolt-new-to-war-card-game-application-c963c8a87f6d"
                 },
                 {
-                  id: 4,
+                  id: 5,
                   title: "Simplify Testing Generative AI Systems",
                   description: "A simple way of testing subjective outputs of Generative AI systems.",
                   image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*aVf0XMwBjUrLy5SiMxBhDQ@2x.jpeg",
@@ -306,7 +314,7 @@ export default function Home() {
                   readUrl: "https://medium.com/@kevinconklin_17818/simplify-testing-fine-tuned-llms-and-prompts-e0a6c2cfcdbf"
                 },
                 {
-                  id: 5,
+                  id: 6,
                   title: "Quick Question",
                   description: "A pre-Generative AI application that outputs random questions to ask friends and family.",
                   image: "https://media.istockphoto.com/id/1349245500/vector/question-mark-icon-in-pink-speech-bubble-questions-sign.jpg?s=612x612&w=0&k=20&c=WROmUJbXxRuvj7uvxs_SLFwhEyo9i3Kf0XXfJqtW5g4=",
