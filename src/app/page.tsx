@@ -52,10 +52,11 @@ export default function Home() {
       </p>
 
       <h2>Projects</h2>
-      <ul>
+      <ul className="project-list">
         {projects.map((project) => (
           <li key={project.title}>
-            <a href={project.url}>{project.title}</a>: {project.description}
+            <a href={project.url}>{project.title}</a>
+            <span>{project.description}</span>
           </li>
         ))}
       </ul>
