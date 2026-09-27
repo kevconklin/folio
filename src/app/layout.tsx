@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Kevin Conklin - Portfolio",
-  description: "Kevin Conklin's personal portfolio website",
+  title: {
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_TAGLINE,
+  alternates: {
+    types: { "application/rss+xml": `${SITE_URL}/feed.xml` },
+  },
 };
 
 export default function RootLayout({
@@ -24,10 +21,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body>
+        <header className="site-header">
+          <Link href="/" className="site-name">
+            {SITE_NAME}
+          </Link>
+          <nav>
+            <Link href="/">Home</Link>
+            <Link href="/blog/">Blog</Link>
+            <Link href="/about/">About</Link>
+          </nav>
+        </header>
+        <main>{children}</main>
+        <footer className="site-footer">
+          © {new Date().getFullYear()} Kevin Conklin · <a href={`${SITE_URL}/feed.xml`}>RSS</a>
+        </footer>
       </body>
     </html>
   );
