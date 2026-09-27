@@ -25,7 +25,7 @@ export default async function PostPage({ params }: PostPageProps) {
   return (
     <article>
       <h1>{post.title}</h1>
-      <p className="muted">
+      <p className="dateline">
         <time dateTime={post.date}>{formatDate(post.date)}</time>
       </p>
       {/* Post HTML is rendered from Markdown files committed to this repo. */}

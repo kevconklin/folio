@@ -34,7 +34,8 @@ export default function RootLayout({
         </header>
         <main>{children}</main>
         <footer className="site-footer">
-          © {new Date().getFullYear()} Kevin Conklin · <a href={`${SITE_URL}/feed.xml`}>RSS</a>
+          <span>© {new Date().getFullYear()} Kevin Conklin</span>
+          <a href={`${SITE_URL}/feed.xml`}>RSS</a>
         </footer>
       </body>
     </html>

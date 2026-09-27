@@ -7,6 +7,11 @@ const RECENT_POST_COUNT = 3;
 
 const projects = [
   {
+    title: "Read More",
+    description: "Social book-tracking app for tracking reading and organizing shelves.",
+    url: "https://read-more.app",
+  },
+  {
     title: "journl/it",
     description: "Zero-knowledge encrypted journaling app.",
     url: "https://journlit.com",
